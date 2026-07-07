@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/modelos.css">
+    <script src="script/comandos.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 class="titulo_pagina">pagina de jogo</h1>
+        <div class="questao">
+            <div class="elementos_questao" id="pergunta"></div>
+            <br>
+            <form>
+                <div class="elementos_questao" name="div_botoes">
+                    <div class="div_linha">
+                        <button type="button" onclick="alternarBotao(1)" class="botoes_jogo" id="botao1"></button>
+                        <button type="button" onclick="alternarBotao(2)" class="botoes_jogo" id="botao2"></button>
+                        <button type="button" onclick="alternarBotao(3)" class="botoes_jogo" id="botao3"></button>
+                        <button type="button" onclick="alternarBotao(4)" class="botoes_jogo" id="botao4"></button>
+                        <button type="button" onclick="alternarBotao(5)" class="botoes_jogo" id="botao5"></button>
+                    </div>
+                    <div class="div_linha">
+                        <button type="button" onclick="alternarBotao(6)" class="botoes_jogo" id="botao6"></button>
+                        <button type="button" onclick="alternarBotao(7)" class="botoes_jogo" id="botao7"></button>
+                        <button type="button" onclick="alternarBotao(8)" class="botoes_jogo" id="botao8"></button>
+                        <button type="button" onclick="alternarBotao(9)" class="botoes_jogo" id="botao9"></button>
+                        <button type="button" onclick="alternarBotao(10)" class="botoes_jogo" id="botao10"></button>
+                    </div>
+                    <div class="div_linha">
+                        <button type="button" onclick="alternarBotao(11)" class="botoes_jogo" id="botao11"></button>
+                        <button type="button" onclick="alternarBotao(12)" class="botoes_jogo" id="botao12"></button>
+                        <button type="button" onclick="alternarBotao(13)" class="botoes_jogo" id="botao13"></button>
+                        <button type="button" onclick="alternarBotao(14)" class="botoes_jogo" id="botao14"></button>
+                        <button type="button" onclick="alternarBotao(15)" class="botoes_jogo" id="botao15"></button>
+                    </div>
+                    <div class="div_linha">
+                        <button type="button" onclick="alternarBotao(16)" class="botoes_jogo" id="botao16"></button>
+                        <button type="button" onclick="alternarBotao(17)" class="botoes_jogo" id="botao17"></button>
+                        <button type="button" onclick="alternarBotao(18)" class="botoes_jogo" id="botao18"></button>
+                        <button type="button" onclick="alternarBotao(19)" class="botoes_jogo" id="botao19"></button>
+                        <button type="button" onclick="alternarBotao(20)" class="botoes_jogo" id="botao20"></button>
+                    </div>
+                    <div class="div_linha">
+                        <button type="button" onclick="alternarBotao(21)" class="botoes_jogo" id="botao21"></button>
+                        <button type="button" onclick="alternarBotao(22)" class="botoes_jogo" id="botao22"></button>
+                        <button type="button" onclick="alternarBotao(23)" class="botoes_jogo" id="botao23"></button>
+                        <button type="button" onclick="alternarBotao(24)" class="botoes_jogo" id="botao24"></button>
+                        <button type="button" onclick="alternarBotao(25)" class="botoes_jogo" id="botao25"></button>
+                    </div>
+                </div>
+                <button 
+                    class="elementos_questao"
+                    type="button" 
+                    onclick="enviarResposta()">
+                    Enviar
+                </button>
+            </form>
+            <br>
+            <p>resposta: </p>
+            <p id="resposta"></p>
+        </div>
+    </div>
+</body>
+
+</html>
+
